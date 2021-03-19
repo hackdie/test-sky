@@ -1,0 +1,19 @@
+{
+  "name": "code-task",
+  "version": "1.0.0",
+  "main": "index",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn ts-node index.ts",
+    "build": "TODO compile to prod version",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3",
+    "@types/node": "14.14.35",
+    "ts-node": "9.1.1",
+    "jest": "26.6.3",
+    "ts-jest": "26.5.4",
+    "@types/jest": "26.0.21"
+  }
+}
